@@ -1,6 +1,6 @@
 # sTEAtus Frontend
 
-This is a minimal frontend setup for the sTEAtus project. It uses React with Vite and Tailwind CSS.
+This is the frontend for sTEAtus. It uses React, Vite and Tailwind CSS, including a simple navigation bar and styled status buttons.
 
 ## Available Scripts
 
