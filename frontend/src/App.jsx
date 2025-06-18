@@ -1,24 +1,22 @@
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
 import Status from './pages/Status';
 import Settings from './pages/Settings';
+import NavBar from './components/NavBar';
 
 export default function App() {
   return (
-    <div className="p-4">
-      <nav className="flex gap-4 mb-4">
-        <Link to="/">Home</Link>
-        <Link to="/profile">Profile</Link>
-        <Link to="/status">Status</Link>
-        <Link to="/settings">Settings</Link>
-      </nav>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/status" element={<Status />} />
-        <Route path="/settings" element={<Settings />} />
-      </Routes>
+    <div>
+      <NavBar />
+      <main className="container mx-auto px-4 py-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/status" element={<Status />} />
+          <Route path="/settings" element={<Settings />} />
+        </Routes>
+      </main>
     </div>
   );
 }

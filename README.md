@@ -1,16 +1,18 @@
 # sTEAtus
 
-This repository contains a minimal code base for the sTEAtus project, a web application designed to help individuals with autism communicate their emotional state. The project is currently in an early stage and provides only a skeleton for the frontend built with React and Tailwind CSS.
+This repository contains an early code base for the sTEAtus project, a web application designed to help individuals with autism communicate their emotional state. The frontend now includes basic styling with Tailwind CSS and a small set of pages.
 
 ## Structure
 
-- `frontend/` - React application created with Vite (not yet installed). Includes basic pages: Home, Profile, Status, and Settings.
+- `frontend/` - React application created with Vite. Includes pages for Home, Profile, Status, and Settings, along with a styled navigation bar.
 
 ## Getting Started
 
 1. Navigate to `frontend` and run `npm install` to install dependencies (requires internet access).
 2. Use `npm run dev` to start the development server.
 3. Customize Firebase configuration in `src/firebase/firebase.js`.
+
+The default theme uses the Inter font and a violet primary color. You can adjust these in `tailwind.config.js`.
 
 ## Features TODO
 
