@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+target/
+
+# Caches
+__pycache__/
+*.pyc
+.venv/
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+
+# Secrets / env (keep *.example)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+*credential*
+*secret*
+*.p12
+
+# Supabase local state
+supabase/.branches/
+supabase/.temp/
+
+# Backups
+*.bak
+
+# Local Claude Code config
+.claude/
